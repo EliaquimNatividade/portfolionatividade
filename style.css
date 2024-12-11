@@ -1,67 +1,32 @@
 html {
-
   margin: 0px;
-
   background-color: rgb(0, 0, 0);
-
   color: white;
-
- 
-
 }
 
 .menu  {
-
   padding: 30px 30px 30px;
-
   margin: 0px;
-
   font-family: Arial, Helvetica, sans-serif;
-
   text-align: right;
-
   border: rgb(42, 247, 1) 1px;
-
   box-shadow: 4px 4px 14px;
-
   position: relative;
-
-  color: rgb(5, 197, 5);
-
- 
-
+  color: rgb(5, 197, 5); 
 }
 
 a  {
-
   padding: 30px 30px 30px;
-
   margin: 0px;
-
   text-decoration: none;
-
   color: rgb(44, 253, 2);
-
   font-size: 20px;
-
   font-family: Arial, Helvetica, sans-serif;
-
   font-weight: 600;
-
-  box-shadow: 4px 1px 14px;
-
-
-
- 
-
- 
-
-
-
+  box-shadow: 0px 0px 3px;
+  transition: .2s;
 }
-
 .programacao {
-
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 
   text-align: right;
@@ -125,29 +90,13 @@ a  {
 }
 
 .primeiratelatxt {
-
- 
-
   margin: 140px 330px 100px;
-
   padding: 10px 25px 25px;
-
   z-index: 1;
-
-  box-shadow: 1px 1px 130px rgb(3, 248, 15);
-
-  border: double 15px rgb(247, 247, 247);
-
+  box-shadow: 1px 1px 13px rgb(3, 248, 15);
   border-radius: 30px;
-
- 
-
- 
-
- 
-
- 
-
+  background-color: none;
+  border: solid 1px green;
 }
 
 .download {
@@ -260,4 +209,31 @@ img {
 
 
 
+
+}
+.primeiratelatxt {
+  position: relative;
+  animation: flutuar 2s ease-in-out infinite alternate;
+}
+a:hover {
+  transform: scale(1.05);
+  box-shadow: 1px 1px 18px rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+
+@keyframes flutuar{
+  0% {
+    top: 0;
+
+  }
+  100%{
+    top: 30px;
+  }
 }
